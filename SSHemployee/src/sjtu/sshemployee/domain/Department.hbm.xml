@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+    
+    <hibernate-mapping>
+    <class name="sjtu.sshemployee.domain.Department" table="department">
+    <id name="did" column="did">
+    <generator class="native"/>
+    </id>
+    <property name="dname" column="dname" length="20"/>
+    <property name="ddesc" column="ddesc" length="20"/>
+    <!-- 关联关系的对应映射 -->
+    <set name="employees">
+       <key  column="dno"/><!-- 外键的名称是dno -->
+       <one-to-many class="sjtu.sshemployee.domain.Employee" />
+    </set>
+    </class>
+    </hibernate-mapping>

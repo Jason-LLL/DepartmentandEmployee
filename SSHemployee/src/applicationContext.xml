@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+			http://www.springframework.org/schema/beans
+			http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+			http://www.springframework.org/schema/context
+			http://www.springframework.org/schema/context/spring-context-3.0.xsd
+			http://www.springframework.org/schema/aop
+			http://www.sprignframework.org/schema/aop/spring-aop-3.0.xsd
+			http://www.springframework.org/schema/tx
+			http://www.springframework.org/schema/tx/spring-tx-3.0.xsd		"
+	>
+	<!-- 引入外部的属性文件 -->
+	<context:property-placeholder location="classpath:jdbc.properties"/>
+	<!-- 配置连接池 -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+	   <property name="driverClass"  value="${jdbc.driverClass}"/>
+	   <property name="jdbcUrl" value="${jdbc.url}"/>
+	   <property name="user" value="${jdbc.username}"/>
+	   <property name="password" value="${jdbc.password}"/>
+	</bean>
+	<!-- 配置hibernate的相关属性 -->
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+	   <!-- 注入连接池 -->
+	   <property name="dataSource" ref="dataSource"/>
+	   <!-- 配置hibernate的属性 -->
+	   <property name="hibernateProperties">
+	   <props>
+	      <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+	      <prop key="hibernate.show_sql">true</prop>
+	      <prop key="hibernate.format_sql">true</prop>
+	      <prop key="hibernate.hbm2ddl.auto">update</prop>
+	   </props>
+	   </property>
+	   <!-- 加载Hibernate中的映射文件 -->
+	   <property name="mappingResources">
+	   <list>
+	     <value>sjtu/sshemployee/domain/Department.hbm.xml</value>
+	     <value>sjtu/sshemployee/domain/Employee.hbm.xml</value>
+	   </list>
+	   </property>
+	</bean>
+	<!-- 配置注入Action bean 这时Action类交由spring进行管理    -->
+	<!-- spring默认的scope是单例,action类应该是多例的,需要设置scope属性 -->
+	<bean id="employeeAction" class="sjtu.sshemployee.action.EmployeeAction" scope="prototype">
+      <property name="employeeService" ref="employeeService"/>	
+      <property name="departmentService" ref="departmentService"></property>
+	</bean>
+	<bean id="departmentAtion" class="sjtu.sshemployee.action.DepartmentAction" scope="prototype">
+	<property name="departmentService" ref="departmentService"/>
+	</bean>
+	<!-- 配置业务层的类 -->
+	<bean id="employeeService" class="sjtu.sshemployee.service.impl.EmployeeServiceImpl">
+	<property name="employeeDao" ref="employeeDao"/>
+	</bean>
+	<bean id="departmentService" class="sjtu.sshemployee.service.impl.DepartmentServiceImpl">
+	<property name="departmentDao" ref="departmentDao"/>
+	</bean>
+	<!-- 配置Dao层的类 -->
+	<bean id="employeeDao" class="sjtu.sshemployee.dao.impl.EmployeeDaoImpl">
+	<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>
+	<bean id="departmentDao" class="sjtu.sshemployee.dao.impl.DepartmentDaoImpl">
+	<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<!-- 配置事务管理 -->
+	<bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+	  <property name="sessionFactory" ref="sessionFactory"/>
+	</bean>
+	<!-- 开启事务注解 -->
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+	<!-- 事务声明 -->
+	 <bean id="baseTransaction" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean" 
+           abstract="true"> 
+         <property name="transactionManager" ref="transactionManager"/> 
+         <property name="proxyTargetClass" value="true"/> 
+         <property name="transactionAttributes"> 
+             <props> 
+                 <prop key="load*">PROPAGATION_REQUIRED,readOnly</prop> 
+                 <prop key="save*">PROPAGATION_REQUIRED</prop> 
+                 <prop key="add*">PROPAGATION_REQUIRED</prop> 
+                 <prop key="update*">PROPAGATION_REQUIRED</prop> 
+                 <prop key="remove*">PROPAGATION_REQUIRED</prop> 
+                 <prop key="delete*">PROPAGATION_REQUIRED</prop>
+             </props> 
+         </property> 
+     </bean> 
+</beans>
+
