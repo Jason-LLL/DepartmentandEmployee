@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sceneitems">
+        <item>近距离 @ 30fps</item>
+    </array>
+    <array name="viewitems">
+        <item>深度图(彩色编码)</item>
+        <item>深度图(灰度编码)</item>
+        <item>灰度图</item>
+        <item>点云图</item>
+    </array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">smartTOFViewer</string>
+    <string name="tcPowerValue">50%</string>
+    <string name="tvExposure">积分时间:</string>
+    <string name="tvExposureValue">250us</string>
+    <string name="tvFrameRate">帧率模式</string>
+    <string name="tvFreq">调制频率(Mhz)</string>
+    <string name="tvMaxDistance">4000mm</string>
+    <string name="tvMinDistance">1000mm</string>
+    <string name="tvPower">功率:</string>
+    <string name="tvRangeMax">最远距离(mm):</string>
+    <string name="tvRangeMin">最近距离(mm):</string>
+    <string name="tvRevise">修正系数</string>
+    <string name="tvReviseValue">0</string>
+    <string name="tvScenario">场景:</string>
+    <string name="tvViewType">视图类型:</string>
+    <string name="tvadvance">高级参数</string>
+    <string name="tvbase">基础参数</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+    </style>
+    <style name="MyDialog" parent="android:style/Theme.Holo.Light.Dialog">
+        
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        
+        <item name="android:windowFrame">@null</item>
+        
+        <item name="android:windowIsFloating">true</item>
+        
+        <item name="android:windowIsTranslucent">false</item>
+        
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

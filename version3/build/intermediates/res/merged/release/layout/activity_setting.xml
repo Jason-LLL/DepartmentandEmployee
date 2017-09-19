@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lll"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_base"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="基础参数"
+        android:clickable="true"
+        />
+    <TextView
+        android:id="@+id/tv_advanced"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:text="高级参数"
+        android:clickable="true"
+        />
+</LinearLayout>
+<include  layout="@layout/fg1"  android:id="@+id/ll_base"/>
+<include  layout="@layout/fg2"  android:id="@+id/ll_advanced"/>
+</LinearLayout>

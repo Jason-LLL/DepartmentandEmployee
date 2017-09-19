@@ -1,0 +1,320 @@
+[
+    {
+        "outputFile": "E:\\androidApplication\\MyApplication\\version3\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 126
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\array.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 131,
+                    "endLine": 10,
+                    "endColumn": 12,
+                    "endOffset": 280
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\array.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 136,
+                        "endLine": 10,
+                        "endColumn": 12,
+                        "endOffset": 290
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 285,
+                    "endColumn": 57,
+                    "endOffset": 338
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 343,
+                    "endColumn": 55,
+                    "endOffset": 394
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 399,
+                    "endColumn": 52,
+                    "endOffset": 447
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 452,
+                    "endColumn": 51,
+                    "endOffset": 499
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 504,
+                    "endColumn": 44,
+                    "endOffset": 544
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 549,
+                    "endColumn": 44,
+                    "endOffset": 589
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 594,
+                    "endColumn": 49,
+                    "endOffset": 639
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 644,
+                    "endColumn": 44,
+                    "endOffset": 684
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 689,
+                    "endColumn": 44,
+                    "endOffset": 729
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 734,
+                    "endColumn": 48,
+                    "endOffset": 778
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 783,
+                    "endColumn": 48,
+                    "endOffset": 827
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 832,
+                    "endColumn": 39,
+                    "endOffset": 867
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 872,
+                    "endColumn": 48,
+                    "endOffset": 916
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 921,
+                    "endColumn": 48,
+                    "endOffset": 965
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 970,
+                    "endColumn": 41,
+                    "endOffset": 1007
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1012,
+                    "endColumn": 43,
+                    "endOffset": 1051
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1056,
+                    "endColumn": 42,
+                    "endOffset": 1094
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1099,
+                    "endColumn": 44,
+                    "endOffset": 1139
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1144,
+                    "endColumn": 42,
+                    "endOffset": 1182
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1187,
+                    "endColumn": 39,
+                    "endOffset": 1222
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1227,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 1305
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1310,
+                    "endLine": 36,
+                    "endColumn": 12,
+                    "endOffset": 1377
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1382,
+                    "endLine": 50,
+                    "endColumn": 12,
+                    "endOffset": 1895
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\MyApplication\\version3\\src\\main\\res\\values\\styles.xml"
+                }
+            }
+        ]
+    }
+]

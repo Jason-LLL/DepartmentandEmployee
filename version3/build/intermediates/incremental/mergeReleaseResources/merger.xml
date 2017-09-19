@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="E:\androidApplication\MyApplication\version3\src\main\res"/><source path="E:\androidApplication\MyApplication\version3\build\generated\res\rs\release"/><source path="E:\androidApplication\MyApplication\version3\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="E:\androidApplication\MyApplication\version3\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\androidApplication\MyApplication\version3\src\main\res"><file name="button_bgm" path="E:\androidApplication\MyApplication\version3\src\main\res\drawable\button_bgm.xml" qualifiers="" type="drawable"/><file name="cover" path="E:\androidApplication\MyApplication\version3\src\main\res\drawable\cover.jpg" qualifiers="" type="drawable"/><file name="textview_boader" path="E:\androidApplication\MyApplication\version3\src\main\res\drawable\textview_boader.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="E:\androidApplication\MyApplication\version3\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\androidApplication\MyApplication\version3\src\main\res\drawable-ldpi\ic_launcher.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_launcher" path="E:\androidApplication\MyApplication\version3\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\androidApplication\MyApplication\version3\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\androidApplication\MyApplication\version3\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\androidApplication\MyApplication\version3\src\main\res\drawable-xxxhdpi\ic_launcher.png" qualifiers="xxxhdpi-v4" type="drawable"/><file name="activity_setting" path="E:\androidApplication\MyApplication\version3\src\main\res\layout\activity_setting.xml" qualifiers="" type="layout"/><file name="activity_testdmcam" path="E:\androidApplication\MyApplication\version3\src\main\res\layout\activity_testdmcam.xml" qualifiers="" type="layout"/><file name="fg1" path="E:\androidApplication\MyApplication\version3\src\main\res\layout\fg1.xml" qualifiers="" type="layout"/><file name="fg2" path="E:\androidApplication\MyApplication\version3\src\main\res\layout\fg2.xml" qualifiers="" type="layout"/><file name="testcusenative" path="E:\androidApplication\MyApplication\version3\src\main\res\menu\testcusenative.xml" qualifiers="" type="menu"/><file path="E:\androidApplication\MyApplication\version3\src\main\res\values\array.xml" qualifiers=""><array name="viewitems">
+        <item>深度图(彩色编码)</item>
+        <item>深度图(灰度编码)</item>
+        <item>灰度图</item>
+    </array><array name="sceneitems">
+        <item>近距离 @ 30fps</item>
+    </array></file><file path="E:\androidApplication\MyApplication\version3\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="E:\androidApplication\MyApplication\version3\src\main\res\values\strings.xml" qualifiers=""><string name="tvadvance">高级参数</string><string name="tvRangeMin">最近距离(mm):</string><string name="action_settings">Settings</string><string name="app_name">smartTOFViewer</string><string name="tvPower">功率:</string><string name="tvbase">基础参数</string><string name="tcPowerValue">50%</string><string name="tvMaxDistance">4000mm</string><string name="tvExposure">积分时间:</string><string name="tvRangeMax">最远距离(mm):</string><string name="tvMinDistance">1000mm</string><string name="tvExposureValue">250us</string><string name="tvViewType">视图类型:</string><string name="tvScenario">场景:</string></file><file path="E:\androidApplication\MyApplication\version3\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        
+    </style><style name="MyDialog" parent="android:style/Theme.Holo.Light.Dialog">
+        
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        
+        <item name="android:windowFrame">@null</item>
+        
+        <item name="android:windowIsFloating">true</item>
+        
+        <item name="android:windowIsTranslucent">false</item>
+        
+        <item name="android:backgroundDimEnabled">false</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style></file><file path="E:\androidApplication\MyApplication\version3\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        
+    </style></file><file path="E:\androidApplication\MyApplication\version3\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        
+    </style></file><file path="E:\androidApplication\MyApplication\version3\src\main\res\values-w820dp\dimens.xml" qualifiers="w820dp-v13"><dimen name="activity_horizontal_margin">64dp</dimen></file></source><source path="E:\androidApplication\MyApplication\version3\build\generated\res\rs\release"/><source path="E:\androidApplication\MyApplication\version3\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="E:\androidApplication\MyApplication\version3\src\release\res"/></dataSet><mergedItems/></merger>

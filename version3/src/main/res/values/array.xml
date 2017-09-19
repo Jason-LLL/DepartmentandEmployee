@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sceneitems">
+        <item>近距离 @ 30fps</item>
+    </array>
+    <array name="viewitems">
+        <item>深度图(彩色编码)</item>
+        <item>深度图(灰度编码)</item>
+        <item>灰度图</item>
+        <item>点云图</item>
+    </array>
+</resources>
